@@ -54,7 +54,7 @@ class EarthController < ApplicationController
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "aqua/cancer.html.erb"})
+    render({ :template => "aqua_views/cancer.html.erb"})
 
   end
 end
